@@ -1,0 +1,80 @@
+.login-bg-container {
+    background-size: cover;
+    block-size: 100vh;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .app-logo {
+    margin-block-start: 48px;
+    margin-inline-start: 165px;
+  }
+  
+  .form-container {
+    block-size: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-form {
+    inline-size: 456px;
+    block-size: 440px;
+    inset-block-start: 292px;
+    inset-inline-start: 492px;
+    border-radius: 8px;
+    background-color: rgba(12, 11, 16, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .login-heading {
+    font-family: 'HK Grotesk';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .username-label {
+    color: #ffffff;
+    font-size: 13px;
+  }
+  
+  .user-name {
+    inline-size: 360px;
+    block-size: 40px;
+    outline: none;
+    border: none;
+    background-color: #333333;
+    margin-block-start: 10px;
+    border-radius: 3px;
+    padding-inline-start: 16px;
+    outline-color: #333333;
+    color: #ffffff;
+    font-size: 14px;
+  }
+  
+  .error-msg {
+    color: rgba(220, 38, 38, 1);
+    font-size: 14px;
+    align-self: flex-start;
+    margin-inline-start: 10px;
+  }
+  
+  .login-btn {
+    background-color: rgba(229, 9, 20, 1);
+    inline-size: 360px;
+    block-size: 40px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+  }

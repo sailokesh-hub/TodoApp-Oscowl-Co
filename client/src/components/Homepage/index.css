@@ -1,0 +1,108 @@
+::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .home-page-container {
+    block-size: 100%;
+    overflow-y: hidden;
+  }
+  
+  .home-container {
+    background-image: url(https://res.cloudinary.com/dlsoah4xc/image/upload/v1691847229/Imagehome_page_superman_nh4tnb.jpg);
+    block-size: 100vh;
+    background-size: cover;
+    overflow-y: hidden;
+  }
+  
+  .bg-detail-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    block-size: 70vh;
+    inline-size: 1030px;
+    margin: auto;
+  }
+  
+  .bg-description {
+    inline-size: 350px;
+  }
+  
+  .play-btn {
+    inline-size: 74px;
+    block-size: 40px;
+    border-radius: 4px;
+    border: none;
+  }
+  
+  .title-heading {
+    font-size: 55px;
+    font-family: 'sans serif';
+    color: #ffffff;
+    padding-block-start: 20px;
+    padding-block-end: 20px;
+  }
+  
+  .bg-description {
+    color: #ffffff;
+    font-size: 18px;
+    padding-block-end: 20px;
+  }
+  
+  .trending-original-bg-container {
+    background-color: rgba(24, 24, 24, 1);
+    block-size: 85vh;
+    padding-block-start: 20px;
+  }
+  
+  .trending-originals-videos-container {
+    padding-block-start: 40px;
+    inline-size: 1030px;
+    margin: auto;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .trending-heading {
+    font-size: 24px;
+  }
+  
+  .slick-container {
+    inline-size: 100%;
+    max-inline-size: 1500px;
+    margin-block-start: 10px;
+  }
+  
+  .slick-item {
+    border-radius: 10px;
+    color: #ffffff;
+  }
+  
+  .logo-image {
+    margin: 0px 10px;
+    block-size: 170px;
+    inline-size: 244px;
+  
+    margin-inline-start: 0px;
+    border-radius: 5px;
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    color: #ffffff;
+  }
+  
+  .load {
+    block-size: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slick-container-bg {
+    block-size: 200px;
+    border-radius: 8px;
+    margin-block-start: 20px;
+  }
